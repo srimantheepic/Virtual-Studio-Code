@@ -1,0 +1,90 @@
+print("Would you like to take a quiz? (type 'y' or 'n' only)")
+answer = input()
+if answer == 'y':
+  print('You have just challanged yourself to a very VERY hard quiz')
+  print('------------------------------------------------------------------------------------')
+  print('RULES')
+  print("1. You can cheat, if you want. Or you could be a nerd and then just do it yourself")
+  print("2. You only get 1 attempt if you get a wrong answer the program will stop running")
+  print("3. TRY")
+  print('4. Use proper format')
+  print('This ends the rules, lets continue')
+  print('----------------------------------------------------------------------------------')
+  banshee = input('Who won Super Bowl 1? (Put the name in proper form or nickname):')
+  if banshee in ['Green Bay Packers', 'Packers']:
+    print('Correct! On to question 2')
+    print('---------------------------------------------------------------------------------')
+    steak = input('How does Gordon Ramsey like his steak? Rare, Medium Rare, Well Done? :')
+    if steak == 'Rare':
+      print('Wow! That is 2 in a row. Let us see if you can solve question 3.')
+      print('---------------------------------------------------------------------------------')
+      games = input('Which game was played the most in the year of 2022? PUBG, Valorant, Fortnite, Minecraft? :')
+      if games == 'PUBG':
+        print('Im impressed my dude. You are on a role!')
+        print('---------------------------------------------------------------------------------')
+        toy = input('Who is better|Prime Russ or Prime Steph? :')
+        if toy in ['Prime Steph', 'Steph']:
+          print('I can agree to that! Moving on to question 4!')
+          print('---------------------------------------------------------------------------------')
+          mandela = input('Did the 2023 Brookvale Broncos go undefeated? Yes or No? :')
+          if mandela in ['yes', 'Yes', 'YES', 'y']:
+            print('Thats right! They did got undefeated. on to question 5')
+            print('---------------------------------------------------------------------------------')
+            lenskart = input('What is the pythagorium theorem? a squared + b squared = c squared, b squared + q squared = w squared, or p squared + j squared = l squared? :')
+            if lenskart == 'a squared + b squared = c squared':
+              print('I just proved that you are a NERD. HAHAHAHAHHAHAHA. onto question 6!')
+              print('---------------------------------------------------------------------------------')
+              overlode = input('Are pillows mandatory for a good nights sleep? Yes or No? :')
+              if overlode in ['yes', 'Yes', 'YES', 'y']:
+                print('You are a true sleepyhead. Onto question 7!')
+                print('---------------------------------------------------------------------------------')
+                python = input('What programming language am I using to make this quiz? Python, Java Script, or C++? :')
+                if python in ['Python', 'python']:
+                  print('Correct! Onto question 8. The last question of this quiz!')
+                  print('---------------------------------------------------------------------------------')
+                  rating = input('On a scale of 1 to 10 how would you rate this quiz?')
+                if rating in['5', '6', '7', '8', '9', '10']:
+                  print(rating, 'is a very good review in my opinion thanks! This was a solo project so im pretty happy to hear this.')
+                  print('---------------------------------------------------------------------------------')
+                  part = input('Ready to continue to the award ceremony? :')
+                  if part in ['yes', 'YES', 'Yes', 'y']:
+                    print('You have completed the quiz! Its so cool to see someone come this far!')
+                    print('Your score is 8/8!')
+                    print('Thanks for playing! Bye Bye!')
+                    print('---------------------------------------------------------------------------------')
+                    print('Developer & Coder: Sriman Sreepthi (@srimantheepic)')
+                    print('Visit my Replit page for more projects!')
+                  elif part in ['no', 'No', 'NO', 'n']:
+                    print('Guess you wont be getting your award! Bye Bye, thanks for playing!')
+                    print('---------------------------------------------------------------------------------')
+                    print('Developer & Coder: Sriman Sreepthi (@srimantheepic)')
+                    print('Visit my Replit page for more projects!')
+                elif rating in ['1', '2', '3', '4']:
+                  print(rating, 'is pretty disappointing. So now I have some tough critics.')
+                elif python in ['Java Script', 'C++', 'java script', 'c++']:
+                  print('Not quite right. I wrote this quiz using Python')
+                  exit()
+              elif overlode in ['no', 'No', 'NO', 'n']:
+                print('How else are you going to sleep?')
+                exit()
+            elif lenskart in ['b squared + q squared = w squared', 'p squared + j squared = l squared']:
+              print('I mean, it is a simple math problem... Isnt it?')
+              exit()
+          elif mandela in ['No', 'NO', 'no', 'n']:
+            print('You will regret the day that you messed with the Broncos!')
+            exit()
+        elif toy in ['Prime Russ', 'Russ']:
+          print('*sigh* im just dissapointed')
+          exit()
+      elif games in ['Valorant', 'Minecraft', 'Fortnite']:
+        print('HOW COULD YOU MISS THIS, DO YOU NOT PLAY VIDEO GAMES?!')
+        exit()
+    elif steak in ['Medium Rare', 'Well Done']:
+      print('Must be pretty hard for you, huh? The correct answer was Rare.')
+      exit()
+  elif banshee in ['Arizona Cardinals', 'Cardinals', 'San Francisco 49ers', '49ers', 'Niners', 'Minnesota Vikings', 'Vikings', 'Las Vegas Raiders', 'Raiders', 'Los Angeles Rams', 'Rams', 'Miami Dolphins', 'Dolphins', 'Dallas Cowboys', 'Cowboys', 'Los Angeles Chargers', 'Chargers', 'Seattle Seahawks' 'Seahawks', 'New York Giants', 'Giants', 'New York Jets', 'Jets', 'Buffalo Bills', 'Bills', 'Kansas City Cheifs', 'Cheifs', 'Houston Texans', 'Texans', 'Jacksonville Jaguars', 'Jaguars', 'Jags','Tampa Bay Buccaners', 'Buccaners', 'Bucs', 'Philadelphia Eagles', 'Eagles', 'Philly', 'Tennessee Titans', 'Titans', 'New England Patriots', 'Patriots', 'Pats', 'Cincinatti Bengals', 'Bengals', 'Pittsburg Steelers', 'Steelers', 'Baltimore Ravens', 'Ravens', 'Cleveland Browns', 'Browns', 'Indianapolis Colts', 'Colts', 'Denver Broncos', 'Broncos', 'Detroit Lions', 'Lions', 'Chicago Bears', 'Bears', 'Carolina Panthers', 'Panthers', 'New Orleans Saints', 'Saints', 'Atlanta Falcons', 'Falcons']:
+    print('Nope! Not the correct answer. You would have gotton Green Bay Packers or Packers but ya didnt!')
+    exit()
+if answer == 'n':
+  print('then why did you even come, bozo. Now scram & stop wasting my time')
+  exit()
